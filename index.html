@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Cat Clicker!</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
   <div class="cat-list-container">
@@ -13,6 +14,25 @@
   <div class="cat-container">
     <img src="" alt="" id="cat-img">
     <div id="cat-counter"></div>
+  </div>
+
+  <div class="cat-edit-container">
+    <button id="admin-btn">Admin</button>
+
+    <div id="cat-edit-form" class="toggle-content" action="">
+        <label for="name">Cat name:</label>
+        <input id="input-name" type="text" name="name"/>
+    
+        <label for="name">Cat img src</label>    
+        <input id="input-img" type="text" name="image"/>
+    
+        <label for="name">Clicks</label>
+        <input id="input-clicks" type="text" name="clicks"/>
+    
+        <button id="cancel-btn">Cancel</button>
+        <button id="save-btn">Save</button>
+    </div>
+
   </div>
 </body>
 
